@@ -10,7 +10,7 @@ export default function LinkList(props) {
           New Recipe
         </Navbar.Link>
       </Link>
-      <Link className={props.className} to="/dashboard">
+      {/* <Link className={props.className} to="/dashboard">
         <Navbar.Link className={props.innerClassName} arrowless={true}>
           Dashboard
         </Navbar.Link>
@@ -19,7 +19,7 @@ export default function LinkList(props) {
         <Navbar.Link className={props.innerClassName} arrowless={true}>
           Profile
         </Navbar.Link>
-      </Link>
+      </Link> */}
     </>
   );
 }
